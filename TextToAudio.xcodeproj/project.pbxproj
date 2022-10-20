@@ -14,6 +14,7 @@
 		F665DC072900D3DE0050697C /* TextToAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665DC062900D3DE0050697C /* TextToAudioTests.swift */; };
 		F665DC112900D3DE0050697C /* TextToAudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665DC102900D3DE0050697C /* TextToAudioUITests.swift */; };
 		F665DC132900D3DE0050697C /* TextToAudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665DC122900D3DE0050697C /* TextToAudioUITestsLaunchTests.swift */; };
+		F665DC202900D51D0050697C /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665DC1F2900D51D0050697C /* Func.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		F665DC0C2900D3DE0050697C /* TextToAudioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextToAudioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F665DC102900D3DE0050697C /* TextToAudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToAudioUITests.swift; sourceTree = "<group>"; };
 		F665DC122900D3DE0050697C /* TextToAudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToAudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F665DC1F2900D51D0050697C /* Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Func.swift; sourceTree = "<group>"; };
+		F665DC212900D72F0050697C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +98,10 @@
 		F665DBF32900D3DD0050697C /* TextToAudio */ = {
 			isa = PBXGroup;
 			children = (
+				F665DC212900D72F0050697C /* Info.plist */,
 				F665DBF42900D3DD0050697C /* TextToAudioApp.swift */,
 				F665DBF62900D3DD0050697C /* ContentView.swift */,
+				F665DC1F2900D51D0050697C /* Func.swift */,
 				F665DBF82900D3DE0050697C /* Assets.xcassets */,
 				F665DBFD2900D3DE0050697C /* TextToAudio.entitlements */,
 				F665DBFA2900D3DE0050697C /* Preview Content */,
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F665DC202900D51D0050697C /* Func.swift in Sources */,
 				F665DBF72900D3DD0050697C /* ContentView.swift in Sources */,
 				F665DBF52900D3DD0050697C /* TextToAudioApp.swift in Sources */,
 			);
@@ -424,6 +430,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextToAudio/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +459,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextToAudio/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
